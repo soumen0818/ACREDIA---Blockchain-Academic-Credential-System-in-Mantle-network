@@ -1157,49 +1157,12 @@ Special thanks to:
 
 ---
 
-## 👥 Team
-
-**Power Button**
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/thisisouvik.png" width="100px;" alt="Souvik Mandal"/><br />
-      <sub><b>Souvik Mandal</b></sub><br />
-      <a href="https://github.com/thisisouvik">GitHub</a>
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/176730425?v=4" width="100px;" alt="Soumen Das"/><br />
-      <sub><b>Soumen Das</b></sub><br />
-      <a href="https://github.com/soumen0818">GitHub</a>
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/199588073?v=4" width="100px;" alt="Snigdha Mandal"/><br />
-      <sub><b>Snigdha Mandal</b></sub><br />
-      <a href="https://github.com/SnigdhaMandal">GitHub</a>
-    </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/165738779?v=4" width="100px;" alt="Soumen Mandal"/><br />
-      <sub><b>Soumen Mandal</b></sub><br />
-      <a href="https://github.com/Soumen1080">GitHub</a>
-    </td>
-  </tr>
-</table>
-
-### Connect With Us
-
-- **GitHub**: [https://github.com/thisisouvik/Arcedia](https://github.com/thisisouvik/Arcedia)
-- **Project**: Acredia - Blockchain Academic Credentials
-- **Status**: Active Development
-
----
 
 ## 📞 Contact & Support
 
 For questions, feedback, or support:
 
 - Open an issue on [GitHub Issues](https://github.com/thisisouvik/Arcedia/issues)
-- Review documentation in `frontend/docs/`
 - Check existing issues for solutions
 
 ---
@@ -1217,7 +1180,5 @@ For questions, feedback, or support:
 **Powered by Mantle Network** | **Layer 2 Scaling Solution**
 
 </div>
-
-⭐ Star this repo if you find it helpful!
 
 </div>
