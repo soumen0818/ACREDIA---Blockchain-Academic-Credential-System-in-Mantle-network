@@ -5,13 +5,23 @@
   
   ### Blockchain-Based Academic Credential Verification System
   
-  *Secure, Transparent, and Tamper-Proof Educational Credentials on the Blockchain*
+  *Secure, Transparent, and Tamper-Proof Educational Credentials on Mantle Network*
 
-  ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
-  ![Solidity](https://img.shields.io/badge/Solidity-393939?style=for-the-badge&logo=ethereum)
-  ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase)
-  ![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs)
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![Solidity](https://img.shields.io/badge/Solidity-393939?style=for-the-badge&logo=ethereum)
+![Mantle](https://img.shields.io/badge/Mantle_Network-000000?style=for-the-badge)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs)
+
+---
+
+### 🎯 Built on Mantle Network Layer 2
+
+**Ultra-low gas fees** • **Lightning-fast transactions** • **Ethereum security** • **EVM compatible**
+
+[🌐 Mantle Network](https://mantle.xyz) | [📊 MantleScan Explorer](https://sepolia.mantlescan.xyz) | [💧 Get Test MNT](https://faucet.sepolia.mantle.xyz)
+
 </div>
 
 ---
@@ -19,6 +29,7 @@
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
+- [Why Mantle Network](#-why-mantle-network)
 - [The Problem](#-the-problem)
 - [Our Solution](#-our-solution)
 - [Screenshots](#-screenshots)
@@ -37,11 +48,12 @@
 
 ## 🌟 Overview
 
-**Acredia** is a revolutionary decentralized platform that transforms how academic credentials are issued, stored, and verified. By leveraging blockchain technology, IPFS, and modern web technologies, Acredia eliminates credential fraud, reduces verification time, and provides lifetime access to verified academic records.
+**Acredia** is a revolutionary decentralized platform that transforms how academic credentials are issued, stored, and verified. Built on **Mantle Network**, a high-performance Layer 2 blockchain, Acredia leverages cutting-edge blockchain technology, IPFS, and modern web technologies to eliminate credential fraud, reduce verification time, and provide lifetime access to verified academic records.
 
 ### Why Acredia?
 
 Traditional paper-based or centralized digital credentials suffer from:
+
 - Easy forgery and tampering
 - Time-consuming verification processes
 - Risk of loss or damage
@@ -49,11 +61,57 @@ Traditional paper-based or centralized digital credentials suffer from:
 - Centralized control and single points of failure
 
 Acredia solves these problems by creating **immutable, blockchain-verified credentials** that are:
+
 - ✅ Permanent and tamper-proof
 - ✅ Instantly verifiable
 - ✅ Decentralized and censorship-resistant
 - ✅ Accessible anywhere, anytime
 - ✅ Privacy-preserving with student control
+
+---
+
+## 🚀 Why Mantle Network?
+
+Acredia is built on **Mantle Network**, an Ethereum Layer 2 scaling solution that offers significant advantages:
+
+### Key Benefits
+
+**💰 Ultra-Low Transaction Costs**
+
+- Drastically reduced gas fees compared to Ethereum mainnet
+- Makes credential issuance affordable for educational institutions
+- Students can claim credentials without worrying about high costs
+
+**⚡ High Performance**
+
+- Fast transaction finality (typically under 2 seconds)
+- Instant credential verification
+- Improved user experience with near-instant confirmations
+
+**🔒 Ethereum Security**
+
+- Inherits Ethereum's security through Layer 2 architecture
+- Modular design with optimistic rollups
+- Battle-tested smart contract standards (OpenZeppelin)
+
+**🌍 EVM Compatibility**
+
+- Full compatibility with Ethereum tooling and infrastructure
+- Seamless integration with MetaMask and other Web3 wallets
+- Easy migration and deployment of Solidity contracts
+
+**♻️ Eco-Friendly**
+
+- Significantly lower energy consumption than Layer 1 solutions
+- Supports sustainable blockchain applications
+- Reduced carbon footprint for credential management
+
+### Network Details
+
+- **Mantle Sepolia Testnet**: Chain ID 5003
+- **Mantle Mainnet**: Chain ID 5000
+- **Block Explorer**: [MantleScan](https://mantlescan.xyz)
+- **RPC Endpoints**: High-availability infrastructure for reliable connections
 
 ---
 
@@ -71,14 +129,17 @@ The current academic credential system faces critical challenges:
 
 ## 💡 Our Solution
 
-Acredia creates a **three-layer verification system**:
+Acredia creates a **three-layer verification system** powered by Mantle Network:
 
-1. **Blockchain Layer**: Immutable credential records on Ethereum Sepolia
+1. **Blockchain Layer**: Immutable credential records on Mantle Network (Layer 2)
 2. **Storage Layer**: Decentralized metadata storage on IPFS
 3. **Database Layer**: Fast querying and indexing via Supabase
 
 This architecture ensures credentials are:
+
 - **Permanent**: Stored on blockchain forever
+- **Cost-Effective**: Low gas fees on Mantle Network make issuance affordable
+- **Fast**: Near-instant transaction finality
 - **Verifiable**: Instant verification via token ID or QR code
 - **Decentralized**: No single point of failure
 - **Detailed**: Subject-wise marks, grades, and complete academic records
@@ -89,39 +150,45 @@ This architecture ensures credentials are:
 ## 📸 Screenshots
 
 ### Landing Page
+
 <img src="frontend/public/hero.png" alt="Acredia Landing Page" width="800"/>
 
-*Modern, responsive landing page showcasing the platform's features*
+_Modern, responsive landing page showcasing the platform's features_
 
 ### Student Dashboard
+
 <img src="frontend/public/student.png" alt="Student Dashboard" width="800"/>
 
-*Students can view all their credentials with detailed information and blockchain verification*
+_Students can view all their credentials with detailed information and blockchain verification_
 
 ### Institution Dashboard
+
 <img src="frontend/public/institute.png" alt="Institution Dashboard" width="800"/>
 
-*Institutions can issue credentials with subject-wise marks, grades, and complete academic records*
+_Institutions can issue credentials with subject-wise marks, grades, and complete academic records_
 
 ### Credential Verification
+
 <img src="frontend/public/verify1.png" alt="Verification Page" width="800"/>
 
-*Public verification page with blockchain proof and comprehensive credential details*
+_Public verification page with blockchain proof and comprehensive credential details_
 
 <img src="frontend/public/verify2.png" alt="Verification Details" width="800"/>
 
-*Detailed subject-wise performance and blockchain transaction information*
+_Detailed subject-wise performance and blockchain transaction information_
 
 ### Admin Panel
+
 <img src="frontend/public/admin.png" alt="Admin Panel" width="800"/>
 
-*Contract owner dashboard for authorizing institutions and monitoring system statistics*
+_Contract owner dashboard for authorizing institutions and monitoring system statistics_
 
 ---
 
 ## ⚡ Key Features
 
 ### For Students
+
 - **Digital Wallet**: Receive credentials as NFTs in your wallet
 - **Instant Access**: View all credentials anytime, anywhere
 - **Easy Sharing**: Generate QR codes or shareable verification links
@@ -129,6 +196,7 @@ This architecture ensures credentials are:
 - **Lifetime Ownership**: Credentials stored permanently on blockchain
 
 ### For Institutions
+
 - **Simple Issuance**: Issue credentials with an intuitive web interface
 - **Subject-Wise Records**: Add detailed marks, grades, and performance data
 - **Batch Processing**: Upload credentials for multiple students
@@ -136,6 +204,7 @@ This architecture ensures credentials are:
 - **Authorization Control**: Admin-approved issuer system
 
 ### For Verifiers (Employers/Universities)
+
 - **Instant Verification**: Verify credentials in seconds via token ID or QR code
 - **Blockchain Proof**: Direct links to blockchain transactions
 - **Complete Details**: View student information, institution, marks, and grades
@@ -143,6 +212,7 @@ This architecture ensures credentials are:
 - **Tamper-Proof**: Impossible to forge or modify credentials
 
 ### For Administrators
+
 - **Authorization Management**: Approve institutions to issue credentials
 - **System Statistics**: Real-time dashboard with credential counts
 - **Contract Ownership**: Full control over smart contract parameters
@@ -152,36 +222,107 @@ This architecture ensures credentials are:
 
 ## 📜 Smart Contracts
 
-Acredia uses two main smart contracts deployed on **Ethereum Sepolia Testnet**:
+Acredia uses two main smart contracts deployed on **Mantle Sepolia Testnet**:
 
 ### CredentialNFT Contract
-**Address**: `0xDdC177431B2a376EDfF1D4362c7f69675B69038b`
 
-**View on Explorer**: [https://sepolia.etherscan.io/address/0xDdC177431B2a376EDfF1D4362c7f69675B69038b](https://sepolia.etherscan.io/address/0xDdC177431B2a376EDfF1D4362c7f69675B69038b)
+**Purpose**: ERC-721 NFT contract for issuing academic credentials
+
+**Key Features**:
+
+- ERC-721 standard compliance for maximum compatibility
+- ERC-721URIStorage for IPFS metadata links
+- Ownable pattern with authorized issuer system
+- Revocation mechanism for invalid credentials
 
 **Key Functions**:
-- `mintCredential(address to, string memory uri)` - Mint new credential NFT
-- `authorizeIssuer(address issuer)` - Authorize institution to issue credentials
+
+- `issueCredential(address student, string credentialHash, string uri)` - Issue new credential NFT
+- `authorizeIssuer(address issuer)` - Authorize institution to issue credentials (owner only)
+- `revokeIssuer(address issuer)` - Revoke institution authorization (owner only)
 - `revokeCredential(uint256 tokenId)` - Revoke a credential if needed
 - `authorizedIssuers(address)` - Check if address is authorized
+- `credentialHashes(uint256)` - Get credential hash by token ID
+- `credentialIssuers(uint256)` - Get issuer address by token ID
+- `revokedCredentials(uint256)` - Check if credential is revoked
 
-### CredentialRegistry Contract  
-**Address**: `0x89A9A004aBaAF80096676829AF6E7D51e6A14111`
+### CredentialRegistry Contract
 
-**View on Explorer**: [https://sepolia.etherscan.io/address/0x89A9A004aBaAF80096676829AF6E7D51e6A14111](https://sepolia.etherscan.io/address/0x89A9A004aBaAF80096676829AF6E7D51e6A14111)
+**Purpose**: Central registry for tracking all credentials and their metadata
+
+**Key Features**:
+
+- Immutable record of all issued credentials
+- Efficient lookup by token ID or credential hash
+- Timestamp tracking for issuance verification
+- Public verification without authentication
 
 **Key Functions**:
-- `registerCredential(uint256 tokenId, string memory ipfsHash)` - Register credential metadata
-- `getCredential(uint256 tokenId)` - Retrieve credential information
-- `updateCredentialStatus(uint256 tokenId, bool revoked)` - Update revocation status
 
-> **Note**: These contracts are deployed on Ethereum Sepolia testnet. You can verify their authenticity and view all transactions on Etherscan using the links above.
+- `registerCredential(tokenId, student, issuer, credentialHash, ipfsHash)` - Register credential
+- `verifyCredential(string credentialHash)` - Verify and retrieve credential details
+- `getCredentialByTokenId(uint256 tokenId)` - Get credential by token ID
+- `getAllCredentials()` - Get list of all credential hashes
+- `getTotalCredentials()` - Get total number of credentials issued
+
+### Contract Architecture
+
+```solidity
+// CredentialNFT - ERC721 with authorization system
+contract CredentialNFT is ERC721, ERC721URIStorage, Ownable {
+    mapping(address => bool) public authorizedIssuers;
+    mapping(uint256 => string) public credentialHashes;
+    mapping(uint256 => bool) public revokedCredentials;
+}
+
+// CredentialRegistry - Central tracking system
+contract CredentialRegistry is Ownable {
+    struct CredentialRecord {
+        uint256 tokenId;
+        address studentWallet;
+        address issuerWallet;
+        string credentialHash;
+        string ipfsHash;
+        uint256 issuedAt;
+        bool exists;
+    }
+}
+```
+
+### Deployment Information
+
+**Network**: Mantle Sepolia Testnet (Chain ID: 5003)  
+**Compiler**: Solidity 0.8.23  
+**Optimization**: Enabled (200 runs)  
+**Dependencies**: OpenZeppelin Contracts 4.9.6  
+**Block Explorer**: [MantleScan Sepolia](https://sepolia.mantlescan.xyz)
+
+### 📍 Deployed Contract Addresses
+
+#### Mantle Sepolia Testnet
+
+**CredentialNFT Contract**  
+📜 [`0xfC2f2614dF998f9b07075A5a02939825E6cde04a`](https://sepolia.mantlescan.xyz/address/0xfC2f2614dF998f9b07075A5a02939825E6cde04a)
+
+**CredentialRegistry Contract**  
+📜 [`0x46C29C7572772936AA7f9FC3fA18084f2fa82fA6`](https://sepolia.mantlescan.xyz/address/0x46C29C7572772936AA7f9FC3fA18084f2fa82fA6)
+
+> **📝 Deployment Instructions**:
+>
+> 1. Run `cd contracts && pnpm deploy:mantle-sepolia`
+> 2. Copy the deployed contract addresses from the console output
+> 3. Update your `frontend/.env.local` with the addresses
+> 4. Verify contracts on MantleScan using the verification command
+> 5. Update this README with your deployed addresses
+
+> **⚠️ Important**: Always verify contract addresses on MantleScan before interacting with them. Never trust addresses from unofficial sources.
 
 ---
 
 ## 🛠 Technology Stack
 
 ### Frontend
+
 - **Next.js 16** - React framework with App Router for optimal performance
 - **TypeScript** - Type-safe development
 - **Tailwind CSS** - Utility-first styling
@@ -190,19 +331,23 @@ Acredia uses two main smart contracts deployed on **Ethereum Sepolia Testnet**:
 - **Lucide React** - Modern icon library
 
 ### Blockchain
-- **Solidity 0.8.x** - Smart contract language
-- **Hardhat** - Development environment
-- **Ethereum Sepolia** - Testnet deployment
-- **Ethers.js** - Ethereum library
-- **OpenZeppelin** - Secure contract libraries
+
+- **Solidity 0.8.23** - Smart contract language
+- **Hardhat** - Development environment and testing framework
+- **Mantle Network** - Layer 2 blockchain deployment (Sepolia Testnet & Mainnet)
+- **Ethers.js v5** - Ethereum library for blockchain interactions
+- **OpenZeppelin 4.9.6** - Secure and audited contract libraries
+- **MantleScan** - Block explorer for transaction verification
 
 ### Storage & Backend
+
 - **IPFS** - Decentralized metadata storage via Thirdweb
 - **Supabase** - PostgreSQL database with Row Level Security
 - **PostgreSQL** - Relational database for indexing
 - **RESTful APIs** - Custom API routes in Next.js
 
 ### Development Tools
+
 - **pnpm** - Fast, disk-efficient package manager
 - **ESLint** - Code quality
 - **Prettier** - Code formatting
@@ -219,23 +364,23 @@ graph TB
         B[React Components]
         C[Thirdweb SDK]
     end
-    
+
     subgraph "Blockchain Layer"
         D[CredentialNFT Contract]
         E[CredentialRegistry Contract]
-        F[Ethereum Sepolia Network]
+        F[Mantle Network Layer 2]
     end
-    
+
     subgraph "Storage Layer"
         G[IPFS Network]
         H[Thirdweb Storage]
     end
-    
+
     subgraph "Database Layer"
         I[Supabase PostgreSQL]
         J[Row Level Security]
     end
-    
+
     A --> B
     B --> C
     C --> D
@@ -246,7 +391,7 @@ graph TB
     H --> G
     A --> I
     I --> J
-    
+
     style A fill:#0ea5e9
     style D fill:#f59e0b
     style E fill:#f59e0b
@@ -258,9 +403,19 @@ graph TB
 
 1. **Presentation Layer**: User interfaces for students, institutions, and verifiers
 2. **Application Layer**: Business logic, authentication, and API routes
-3. **Blockchain Layer**: Smart contracts for credential NFTs and registry
-4. **Storage Layer**: IPFS for decentralized metadata storage
-5. **Database Layer**: Supabase for fast queries and off-chain indexing
+3. **Blockchain Layer**: Smart contracts deployed on Mantle Network Layer 2 for low-cost, high-speed transactions
+4. **Storage Layer**: IPFS for decentralized metadata storage ensuring data persistence
+5. **Database Layer**: Supabase for fast queries and off-chain indexing with Row Level Security
+
+### Why This Architecture?
+
+**Scalability**: Mantle Network's Layer 2 solution allows thousands of credentials to be issued without network congestion
+
+**Cost-Efficiency**: Dramatically reduced gas fees compared to Ethereum mainnet make the system economically viable for educational institutions
+
+**Security**: Multi-layer approach ensures data integrity - blockchain for immutability, IPFS for decentralization, and Supabase for access control
+
+**Performance**: Near-instant transaction finality on Mantle Network provides excellent user experience
 
 ---
 
@@ -317,29 +472,33 @@ sequenceDiagram
 3. **Add Academic Data**: Degree, major, GPA, issue date
 4. **Add Subject Marks**: Subject name, marks obtained, maximum marks, grade
 5. **Upload to IPFS**: System uploads metadata to decentralized storage
-6. **Mint NFT**: Smart contract mints credential NFT to student's wallet
+6. **Mint NFT**: Smart contract mints credential NFT to student's wallet on Mantle Network
 7. **Database Record**: System creates searchable database entry
-8. **Confirmation**: Student receives NFT in their wallet
+8. **Confirmation**: Student receives NFT in their wallet (typically within 2 seconds on Mantle)
 
 #### For Students (Viewing Credentials)
 
 1. **Login**: Authenticate with email or wallet
-2. **Dashboard**: View all issued credentials
-3. **Details**: Click credential to see complete information
+2. **Dashboard**: View all issued credentials as NFTs
+3. **Details**: Click credential to see complete information stored on Mantle blockchain
 4. **Share**: Generate QR code or verification link
-5. **Download**: Export credential details or share blockchain proof
+5. **Download**: Export credential details or share blockchain proof from MantleScan
 
 #### For Verifiers (Checking Credentials)
 
 1. **Access**: Navigate to public verification page (no login required)
 2. **Input**: Enter credential token ID or scan QR code
-3. **Verification**: System checks blockchain and IPFS
+3. **Verification**: System checks Mantle blockchain and IPFS
 4. **Results**: View complete credential details with blockchain proof
-5. **Confirmation**: Verify authenticity via blockchain explorer link
+5. **Confirmation**: Verify authenticity via MantleScan blockchain explorer link
 
 ---
 
 ## 🚀 Getting Started
+
+### Quick Start Guide
+
+> **TL;DR**: Set up MetaMask with Mantle Sepolia → Get test MNT → Clone repo → Install dependencies → Configure `.env` files → Deploy contracts → Run frontend
 
 ### Prerequisites
 
@@ -349,6 +508,7 @@ Before you begin, ensure you have the following installed:
 - **pnpm** (v8 or higher) - Install via: `npm install -g pnpm`
 - **Git** - [Download](https://git-scm.com/)
 - **MetaMask** or compatible Web3 wallet - [Install](https://metamask.io/)
+- **Test MNT Tokens** - Get from [Mantle Sepolia Faucet](https://faucet.sepolia.mantle.xyz)
 
 ### Installation
 
@@ -383,26 +543,34 @@ Create a `.env.local` file in the `frontend` directory:
 # Thirdweb Configuration
 NEXT_PUBLIC_THIRDWEB_CLIENT_ID=your_thirdweb_client_id
 
-# Smart Contract Addresses (Ethereum Sepolia)
+# Smart Contract Addresses (Mantle Sepolia Testnet)
 NEXT_PUBLIC_CREDENTIAL_NFT_CONTRACT=0x_your_nft_contract_address
 NEXT_PUBLIC_CREDENTIAL_REGISTRY_CONTRACT=0x_your_registry_contract_address
+
+# Network Configuration
+NEXT_PUBLIC_CHAIN_ID=5003
+NEXT_PUBLIC_NETWORK_NAME=mantleSepolia
 
 # Supabase Configuration
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-# IPFS Storage (Optional - for fallback)
-NEXT_PUBLIC_NFT_STORAGE_KEY=your_nft_storage_key
+# IPFS Storage (via Thirdweb)
+NEXT_PUBLIC_NFT_STORAGE_KEY=your_thirdweb_storage_key
 ```
 
 Create a `.env` file in the `contracts` directory:
 
 ```env
-# Wallet Private Key (for deployment)
-PRIVATE_KEY=your_wallet_private_key
+# Wallet Private Key (for deployment - NEVER commit this!)
+PRIVATE_KEY=your_wallet_private_key_without_0x
 
-# RPC URL
-SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/your_api_key
+# MantleScan API Key (for contract verification)
+MANTLESCAN_API_KEY=your_mantlescan_api_key
+
+# Optional: RPC URL (uses public RPC if not specified)
+MANTLE_SEPOLIA_RPC=https://rpc.sepolia.mantle.xyz
+MANTLE_MAINNET_RPC=https://rpc.mantle.xyz
 ```
 
 ### Database Setup
@@ -425,15 +593,28 @@ Run the following SQL scripts in your Supabase SQL Editor:
 
 ```powershell
 cd contracts
-pnpm hardhat compile
-pnpm hardhat run scripts/deploy.js --network sepolia
+
+# Compile contracts
+pnpm compile
+
+# Deploy to Mantle Sepolia Testnet
+pnpm deploy:mantle-sepolia
+
+# Deploy to Mantle Mainnet (when ready for production)
+pnpm deploy:mantle-mainnet
 ```
 
-7. **Verify Contracts on Etherscan**
+7. **Verify Contracts on MantleScan**
 
 ```powershell
-pnpm hardhat verify --network sepolia YOUR_CONTRACT_ADDRESS
+# Verify CredentialNFT
+pnpm hardhat verify --network mantleSepolia YOUR_NFT_CONTRACT_ADDRESS
+
+# Verify CredentialRegistry
+pnpm hardhat verify --network mantleSepolia YOUR_REGISTRY_CONTRACT_ADDRESS
 ```
+
+**Note**: After deployment, copy the contract addresses from the console output and update your `frontend/.env.local` file with the new addresses.
 
 ### Running the Application
 
@@ -463,32 +644,70 @@ pnpm start
 ### Getting API Keys
 
 #### Thirdweb Client ID
+
 1. Visit [Thirdweb Dashboard](https://thirdweb.com/dashboard)
 2. Create a new project
 3. Copy your Client ID
+4. Configure for Mantle Network support
 
 #### Supabase Setup
+
 1. Create account at [Supabase](https://supabase.com)
 2. Create a new project
 3. Get your project URL and anon key from Settings > API
-4. Run the provided SQL scripts in SQL Editor
+4. Run the provided SQL scripts in SQL Editor (in order):
+   - `sql/database_schema.sql`
+   - `sql/FIX_DATABASE_RLS.sql`
+   - `sql/enable_public_verification.sql`
+   - `sql/enable_admin_stats.sql`
 
-#### Alchemy RPC (for Sepolia)
-1. Sign up at [Alchemy](https://www.alchemy.com/)
-2. Create a new app on Ethereum Sepolia
-3. Copy the HTTPS endpoint
+#### MantleScan API Key (for contract verification)
 
-#### NFT.Storage (Optional)
-1. Visit [NFT.Storage](https://nft.storage/)
-2. Create account and generate API token
-3. Used as fallback IPFS storage
+1. Visit [MantleScan](https://mantlescan.xyz)
+2. Create an account or sign in
+3. Navigate to API Keys section
+4. Generate a new API key
+5. Add to your `.env` file as `MANTLESCAN_API_KEY`
 
-### Wallet Setup
+#### NFT.Storage / Thirdweb Storage
 
-1. Install MetaMask browser extension
-2. Create or import wallet
-3. Switch to Sepolia Test Network
-4. Get test ETH from [Sepolia Faucet](https://sepoliafaucet.com/)
+1. Visit [Thirdweb Storage](https://thirdweb.com/storage) (recommended)
+2. Or use [NFT.Storage](https://nft.storage/) as alternative
+3. Generate API token for IPFS uploads
+
+### Wallet Setup for Mantle Network
+
+1. **Install MetaMask** browser extension
+2. **Create or import wallet**
+3. **Add Mantle Sepolia Testnet** to MetaMask:
+
+   **Manual Configuration:**
+
+   - Network Name: `Mantle Sepolia Testnet`
+   - RPC URL: `https://rpc.sepolia.mantle.xyz`
+   - Chain ID: `5003`
+   - Currency Symbol: `MNT`
+   - Block Explorer: `https://sepolia.mantlescan.xyz`
+
+   **Or use Chainlist:**
+
+   - Visit [Chainlist](https://chainlist.org)
+   - Search for "Mantle Sepolia"
+   - Click "Add to MetaMask"
+
+4. **Get Test MNT Tokens**:
+
+   - Visit [Mantle Sepolia Faucet](https://faucet.sepolia.mantle.xyz)
+   - Connect your wallet
+   - Request test MNT tokens
+   - Tokens usually arrive within 1-2 minutes
+
+5. **For Mainnet Deployment** (Production):
+   - Network Name: `Mantle`
+   - RPC URL: `https://rpc.mantle.xyz`
+   - Chain ID: `5000`
+   - Currency Symbol: `MNT`
+   - Block Explorer: `https://mantlescan.xyz`
 
 ---
 
@@ -568,8 +787,8 @@ pnpm start
    - Academic records
    - Subject-wise performance
    - Blockchain proof
-4. Click blockchain link to verify on Etherscan
-5. Confirm credential is authentic and not revoked
+4. Click blockchain link to verify on MantleScan
+5. Confirm credential is authentic and not revoked on Mantle Network
 
 ---
 
@@ -708,12 +927,14 @@ verification_logs
 ## 🔐 Security Features
 
 ### Smart Contract Security
+
 - **OpenZeppelin Libraries**: Battle-tested contract implementations
 - **Access Control**: Only authorized issuers can mint credentials
 - **Ownable Pattern**: Contract owner controls authorization
 - **Reentrancy Protection**: Guards against reentrancy attacks
 
 ### Application Security
+
 - **Row Level Security (RLS)**: Supabase database policies
 - **Wallet Authentication**: Cryptographic signature verification
 - **Environment Variables**: Sensitive data never committed
@@ -721,6 +942,7 @@ verification_logs
 - **Public Verification**: No authentication required for verification
 
 ### Data Privacy
+
 - **Student Control**: Students own their credential NFTs
 - **Selective Disclosure**: Share only what's necessary
 - **IPFS Storage**: Decentralized, censorship-resistant
@@ -746,32 +968,55 @@ Acredia follows modern web design principles:
 ### Running Tests
 
 ```powershell
-# Contract tests
+# Contract tests (local Hardhat network)
 cd contracts
 pnpm test
+
+# Compile contracts
+pnpm compile
 
 # Frontend tests (if configured)
 cd frontend
 pnpm test
 ```
 
+### Testing on Mantle Sepolia
+
+**Before testing, ensure:**
+
+1. MetaMask is connected to Mantle Sepolia Testnet
+2. You have sufficient test MNT tokens in your wallet
+3. Environment variables are properly configured
+
 ### Manual Testing Checklist
 
+**Network & Wallet**
+
+- [ ] MetaMask connected to Mantle Sepolia (Chain ID: 5003)
+- [ ] Test MNT tokens available in wallet
+- [ ] Contract addresses correct in `.env.local`
+
 **Credential Issuance**
-- [ ] Institution can issue credential
-- [ ] Student receives NFT
-- [ ] Metadata uploaded to IPFS
-- [ ] Database record created
+
+- [ ] Institution can issue credential on Mantle Network
+- [ ] Transaction completes within 2-3 seconds
+- [ ] Student receives NFT in wallet
+- [ ] Metadata uploaded to IPFS successfully
+- [ ] Database record created with correct chain data
 - [ ] Subject-wise marks displayed correctly
+- [ ] Gas fees are minimal (< $0.01)
 
 **Verification**
+
 - [ ] Public verification page loads
 - [ ] Token ID search works
 - [ ] QR code scanning works
-- [ ] Blockchain link redirects correctly
+- [ ] MantleScan blockchain link redirects correctly
 - [ ] Subject table displays properly
+- [ ] Transaction hash verifiable on MantleScan
 
 **Authorization**
+
 - [ ] Admin can authorize institutions
 - [ ] Unauthorized wallets cannot issue
 - [ ] Authorization status updates in database
@@ -781,6 +1026,7 @@ pnpm test
 ## 🚧 Roadmap
 
 ### Phase 1: Core Features ✅
+
 - [x] Smart contract development
 - [x] NFT credential issuance
 - [x] IPFS metadata storage
@@ -788,25 +1034,30 @@ pnpm test
 - [x] Subject-wise marks system
 
 ### Phase 2: Enhanced Features 🚧
+
 - [ ] Bulk credential issuance
 - [ ] Advanced filtering and search
 - [ ] Email notifications
 - [ ] PDF certificate generation
-- [ ] Multi-chain support
+- [x] Mantle Network integration (Layer 2 scaling)
 
 ### Phase 3: Advanced Features 📋
+
 - [ ] Credential revocation UI
 - [ ] Decentralized identity (DID) integration
 - [ ] Mobile application
 - [ ] API for third-party integrations
 - [ ] Analytics dashboard
+- [ ] Cross-chain credential verification
 
 ### Phase 4: Enterprise Features 🔮
+
 - [ ] Institutional dashboards
 - [ ] Batch operations
 - [ ] Advanced reporting
 - [ ] White-label solutions
 - [ ] Compliance tools
+- [ ] Mantle Mainnet production deployment
 
 ---
 
@@ -815,19 +1066,57 @@ pnpm test
 ### Common Issues
 
 **Problem: MetaMask not connecting**
-- Solution: Ensure you're on Sepolia network and site permissions are granted
+
+- Solution: Ensure you're on Mantle Sepolia network (Chain ID: 5003) and site permissions are granted
+- Add Mantle Sepolia manually if not showing up in network list
+
+**Problem: "Wrong Network" error**
+
+- Solution: Switch to Mantle Sepolia Testnet in MetaMask
+- Check that Chain ID is 5003
+- Verify RPC endpoint is `https://rpc.sepolia.mantle.xyz`
 
 **Problem: Transaction failing**
-- Solution: Check you have enough test ETH and wallet is authorized
+
+- Solution: Check you have enough test MNT tokens in your wallet
+- Verify wallet is authorized to issue credentials (for institutions)
+- Try increasing gas limit if needed
+
+**Problem: Cannot get test MNT**
+
+- Solution: Visit official [Mantle Sepolia Faucet](https://faucet.sepolia.mantle.xyz)
+- Ensure you're requesting for correct wallet address
+- Wait 24 hours between faucet requests if rate-limited
+
+**Problem: Contract deployment fails**
+
+- Solution: Verify PRIVATE_KEY is set correctly in `.env` (without 0x prefix)
+- Ensure sufficient MNT balance for deployment
+- Check Hardhat configuration for correct network settings
 
 **Problem: IPFS upload timeout**
+
 - Solution: Check internet connection or try again later
+- Verify Thirdweb client ID is valid
+- Consider using alternative IPFS gateway
 
 **Problem: Verification page shows "not found"**
+
 - Solution: Ensure RLS policies are enabled in Supabase (run SQL scripts)
+- Check contract addresses in `.env.local` are correct
+- Verify token ID exists on blockchain
 
 **Problem: Subjects not displaying**
-- Solution: Clear browser cache and ensure IPFS metadata contains subjects array
+
+- Solution: Clear browser cache and reload page
+- Ensure IPFS metadata contains subjects array
+- Check IPFS gateway is accessible
+
+**Problem: MantleScan verification fails**
+
+- Solution: Ensure MANTLESCAN_API_KEY is set in `.env`
+- Check contract is deployed and address is correct
+- Wait a few blocks before attempting verification
 
 ### Getting Help
 
@@ -851,6 +1140,7 @@ For licensing inquiries, please contact the team.
 Built with amazing open-source technologies:
 
 - [Next.js](https://nextjs.org/) - React framework
+- [Mantle Network](https://mantle.xyz/) - High-performance Layer 2 blockchain
 - [Thirdweb](https://thirdweb.com/) - Web3 development platform
 - [Supabase](https://supabase.com/) - Open-source Firebase alternative
 - [Hardhat](https://hardhat.org/) - Ethereum development environment
@@ -858,8 +1148,12 @@ Built with amazing open-source technologies:
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [Radix UI](https://www.radix-ui.com/) - Accessible component primitives
 - [Lucide Icons](https://lucide.dev/) - Beautiful icon library
+- [IPFS](https://ipfs.io/) - Decentralized storage network
 
-Special thanks to the blockchain and open-source community for making this project possible.
+Special thanks to:
+
+- **Mantle Network** for providing a scalable and cost-effective Layer 2 solution
+- The blockchain and open-source community for making this project possible
 
 ---
 
@@ -914,7 +1208,15 @@ For questions, feedback, or support:
   
 ### Built with ❤️ by Team Power Button
 
-**Making Academic Credentials Secure, Transparent, and Accessible**
+**Making Academic Credentials Secure, Transparent, and Accessible on Mantle Network**
+
+⭐ Star this repo if you find it helpful!
+
+---
+
+**Powered by Mantle Network** | **Layer 2 Scaling Solution**
+
+</div>
 
 ⭐ Star this repo if you find it helpful!
 
