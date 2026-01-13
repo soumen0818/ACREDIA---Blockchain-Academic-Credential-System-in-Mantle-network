@@ -148,7 +148,10 @@ export function AuthorizeIssuer() {
                 const response = await fetch('/api/admin/update-authorization', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ walletAddress: walletToAuthorize }),
+                    body: JSON.stringify({ 
+                        walletAddress: walletToAuthorize,
+                        transactionHash: result.transactionHash
+                    }),
                 });
 
                 const data = await response.json();
