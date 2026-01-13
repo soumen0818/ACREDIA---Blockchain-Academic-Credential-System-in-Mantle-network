@@ -3,7 +3,7 @@ import { supabase } from '@/lib/supabase';
 
 export async function POST(request: NextRequest) {
     try {
-        const { walletAddress } = await request.json();
+        const { walletAddress, transactionHash } = await request.json();
 
         if (!walletAddress) {
             return NextResponse.json(
@@ -28,10 +28,15 @@ export async function POST(request: NextRequest) {
         }
 
         if (institution) {
-            // Update existing institution to mark as verified
+            // Update existing institution to mark as verified and store transaction hash
+            const updateData: any = { verified: true };
+            if (transactionHash) {
+                updateData.authorization_tx_hash = transactionHash;
+            }
+
             const { error: updateError } = await supabase
                 .from('institutions')
-                .update({ verified: true })
+                .update(updateData)
                 .eq('id', institution.id);
 
             if (updateError) {
@@ -46,6 +51,7 @@ export async function POST(request: NextRequest) {
                 success: true,
                 message: 'Institution verified successfully',
                 institution,
+                transactionHash,
             });
         }
 
@@ -54,6 +60,7 @@ export async function POST(request: NextRequest) {
             success: true,
             message: 'Wallet authorized on blockchain. Institution will be linked when they connect.',
             wallet: walletAddress,
+            transactionHash,
         });
     } catch (error) {
         console.error('Error in update-authorization:', error);
